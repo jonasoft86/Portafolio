@@ -1,0 +1,1031 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Jonathan Monroy | Portafolio Web</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel='stylesheet' type='text/css' />
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+
+<link href="css/portafolio.css" rel='stylesheet' type='text/css' />
+<link href="css/menu.css" rel='stylesheet' type='text/css' />
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" rel='stylesheet' type='text/css' />
+
+<!-- First load wow.js and other libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<!-- scrollSpy plugin see https://github.com/thesmart/jquery-scrollspy -->
+<script src="https://gitcdn.xyz/repo/thesmart/jquery-scrollspy/0.1.3/scrollspy.js"></script>
+
+<script>
+
+  	// Init WOW.js and get instance
+  	var wow = new WOW();
+  	wow.init();
+
+	window.addEventListener('scroll', function(e) {
+
+		if( $(window).scrollTop() <= 1550) {
+			$('.wow').removeClass('animated');
+			$('.wow').removeAttr('style');
+			new WOW().init();
+		}
+
+		if( $(window).scrollTop() >= 5000) {
+			$('.wow').removeClass('animated');
+			$('.wow').removeAttr('style');
+			new WOW().init();
+		}
+	});
+</script>
+
+ <!-- Custom Theme files -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="keywords" content="Preface Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<!-- webfonts -->
+	<link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+<!-- webfonts -->
+ <!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+
+ <script>
+	$(".menu-opener").click(function(){
+		$(".menu-opener, .menu-opener-inner, .menu").toggleClass("active");
+	});
+</script>
+
+</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+
+			
+			<div id="home" class="header">
+
+				<nav class="menu-opener">
+					<div class="menu-opener-inner"></div>
+				  </nav>
+				  <nav class="menu">
+					<span class="menu"><img src="images/menu.png" alt=" " /></span>
+					<ul class="menu-inner nav1">
+					  <a href="#" class="menu-link">
+						<li>Inicio</li>
+					  </a>
+					  <a class="scroll menu-link" data-hover="About" href="#about">
+						<li>Sobre</li>
+					  </a>
+					  <a class="scroll menu-link" data-hover="About" href="#work" >
+						<li>Habilidades</li>
+					  </a>
+					  <a class="scroll menu-link" data-hover="About" href="#services">
+						<li>Experiencia</li>
+					  </a>
+					  <a class="scroll menu-link" data-hover="About" href="#contact">
+						<li>Contacto</li>
+					  </a>
+					</ul>
+				  </nav>
+
+				  <script>
+					$( "span.menu" ).click(function() {
+					  $( "ul.nav1" ).slideToggle( 300, function() {
+					  // Animation complete.
+					   });
+					  });
+				  </script>
+
+				  <script>
+					$(".menu-opener").click(function(){
+						$(".menu-opener, .menu-opener-inner, .menu").toggleClass("active");
+					});
+				</script>
+				<div class="container">
+				<!-- top-hedader -->
+				<div class="top-header">
+
+					<div class="navigation-left">
+						<div id="bar">
+							<div id="button-red"></div>
+							<div id="button-yellow"></div>
+							<div id="button-green"></div>
+						</div>
+						<div id="screen">
+							<p class="command">Lugar</p>
+							<p class="response">Santiago, Chile</p>
+						
+							<p class="command">InformacionContacto</p>
+							<p class="response array">
+								<a class="array-element" href="#">jonathan.monroy@live.com</a>,
+								<a class="array-element" href="https://www.linkedin.com/in/jonathanmonroy/" target="_blank">LinkedIn</a>,
+								<a class="array-element" href="https://github.com/jonasoft86" target="_blank">Github</a>
+							</p>
+						
+							<p class="command">Intereses</p>
+							<p class="response array">
+								<span class="array-element">Coding</span>,
+								<span class="array-element">Bike</span>,
+								<span class="array-element">Music</span>,
+								<span class="array-element">Cience</span>,
+								<span class="array-element">Traveling</span>,
+								<span class="array-element">Learning</span>
+							</p>
+						
+							<p class="command">Habilidades</p>
+							<p class="response array">
+								<span class="array-element">Node/Express</span>,
+								<span class="array-element">Spring Framework/Spring Boot</span>,
+								<span class="array-element">Laravel/PHP</span>,
+								<span class="array-element">MySQL/MariaDB/MongoDB</span>,
+								<span class="array-element">HTML/CSS</span>,
+								<span class="array-element">Typescript/Javascript</span>,
+								<span class="array-element">C/C++/C#/Java</span>,
+								<span class="array-element">Git</span>
+							</p>
+
+							<p class="command">
+								<span class="cursor">&nbsp</span>	
+							</p>
+						</div>
+					
+					</div>
+
+					<div class="navigation-right">
+						<div class="typewriter">
+							<h1> (Coding, Art) => Creatividad </h1>
+						  </div>
+
+						  <div id="satu" class="buttonBox">
+							<a href="https://www.dropbox.com/s/hnoqp0eq285op4b/JM-CV.pdf?dl=0">
+								<button>Descargar CV</button>
+								<div class="border"></div>
+								<div class="border"></div>
+							</a>
+						</div>
+
+
+					</div>
+				
+			</div>
+		</div>
+	</div>
+			<!-- about -->
+			<div id="about" class="about">
+				<div class="col-md-6 about-left">
+					<div id="owl-demo1" class="owl-carousel owl-carousel2">
+					                <div class="item">
+					                	<div class="about-left-grid">
+											<h2>Hello World! Soy <span>Jonathan Monroy</span></h2>
+											<p>Me defino como una persona en constante aprendizaje de tecnologías, lo que me
+												motiva es el uso de estas en el efecto de poder dar soluciones automatizadas de
+												procesos, como también el poder de entregar una solución que conlleve a un efecto
+												positivo, emotivo y de interacción con las personas.
+											</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">Mis Trabajos</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Contáctame</a></li>
+											</ul>
+										</div>
+					                </div>
+					                  <div class="item">
+					                	<div class="about-left-grid">
+											<h2><span>Tecnología</span></h2>
+											<p>2 años experiencia Desarrollo de videojuegos C#, Unity</p>
+											<p>2 años experiencia PHP Laravel</p> 
+											<p>1 año experiencia Java-Spring-SpringBoot.</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">Mis Trabajos</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Contáctame</a></li>
+											</ul>
+										</div>
+					                </div>
+					                  <div class="item">
+					                	<div class="about-left-grid">
+											<h2><span>Pasión</span></h2>
+											<p>Me gusta el aire libre, conocer nuevos lugares, andar en bicicleta,</p>
+												conocer nuevas personas, musica, videojuegos, cerveza y Tecnología :)</p>
+											<ul>
+												<li><a class="a-btn-a scroll" href="#port">Mis Trabajos</a></li>
+												<li><a class="a-btn-h scroll" href="#contact">Contáctame</a></li>
+											</ul>
+										</div>
+					                </div>
+					</div>
+				</div>
+				<div class="col-md-6 about-right"></div>
+					
+				</div>
+				<div class="clearfix"> </div>
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo1").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  false,
+						pagination : true,
+					});
+				});
+			</script>
+			<!-- Feedback -->
+			<script>
+				$(document).ready(function() {
+					$("#owl-demo3").owlCarousel({
+						items : 1,
+						lazyLoad : false,
+						autoPlay : true,
+						navigation : false,
+						navigationText :  true,
+						pagination :true,
+					});
+				});
+			</script>
+			</div>
+			<!-- /about -->
+			<!-- services -->
+			<div id="services" class="services">
+				<div class="container">
+					<div class="service-head one text-center ">
+						<h4>Lo que hago</h4>
+						<h3> <span>Habilidades</span></h3>
+						<span class="border two"></span>
+					</div>
+					<!-- services-grids -->
+					<div class="wthree_about_right_grids w3l-agile">
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-cog"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Backend</h4>
+						<p>He trabajado desarrollando distintos sistemas , Ecommerce, Sistemas de gestion y Microservicios, los cuales en cada uno de ellos he aprendido diferentes tecnologias 
+							y logicas de negocio , desde el modelado de cada una de las entidades de negocio, conecciones a distintas bases de datos y su respectiva capa de presentacion.
+						</p>
+						<br>
+						<p>Tecnologias<p>
+					    <p>JAVASCRIPT-NODE: 'STACK
+							'MEAN-MEVN','NODE','MONGODB','EXPRESS',
+							'ANGULAR','VUE'.
+						</p>
+						<p>
+							JAVA-J2E: 'ARQUITECTURA
+							MULTICAPAS', 'JAVA7/8',
+							'SPRING', 'SPRING MVC',
+							'SPRINGBOOT 2', 'HIBERNATE
+							2', MYBATIS'.
+						</p>
+								
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-pencil"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Frontend</h4>
+						<p>Me interesa el frontend , en prestacion al detalle, experiencia de usuario, agregar funcionalidades creativas,
+							mi gran pasion es el codigo creativo.
+						</p>
+						<br>
+						<p>Tecnologias<p>
+						<p>
+							VUE: 'COMPONENTS',
+							'ROUTER', 'DIRECTIVES'
+							'METHODS', 'VUEX',
+							'LIFECYCLE HOOKS';
+						</p>
+						<p>
+							ANGULAR: 'PROPS',
+							'COMPONENTS','DIRECTIVES',
+							'PIPES','REACTIVEFORMS','SERVICES','@INPUT',
+							'@OUTPUT','@VIEWCHILD';
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<div class="faIcon">
+								<i class="fa fa-gamepad" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Desarrollo de Videojuegos</h4>
+						<p>Mi primer trabajo, donde aprendi y lleve a practica gran parte de los conceptos de programacion y patrones de diseño.</p>
+						<p>Participe en el desarrollo de prototipos para futuros desarrollos, luego estuve en un equipo agil desarrollando 2 videojuegos
+							uno para plataformas web (Kongregate) y otro para dispositivos moviles , desarrollado en Unity.
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-gift"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>Herramientas</h4>
+						<p>'GIT', 'GITLAB', 'SVN',
+							'VSCODE', 'ECLIPSE',
+							'POSTMAN'.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				<div class="col-md-6 wthree_about_right_grid">
+					<div class="col-xs-4 wthree_about_right_grid_left">
+						<div class="hvr-rectangle-in">
+							<i class="glyphicon glyphicon-gift"></i>
+						</div>
+					</div>
+					<div class="col-xs-8 wthree_about_right_grid_right">
+						<h4>General</h4>
+						<p>'FREEMAKER','XSLT',
+							'ES6/ES2015', 'JQUERY',
+							'ANGULARJS', 'HTML5',
+							'CSS3','RESTFUL API',
+							'BOOTSTRAP', 'XML','JSP',
+							'JSON', 'WEBPACK'</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			
+			</div>
+
+					<!-- services-grids -->
+				</div>
+			</div>
+			<!-- services -->
+			<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<div class="service-head text-center">
+						<h4>Lo que hice</h4>
+						<h3>Mi <span>Experiencia</span></h3>
+						<span class="border one"></span>
+					</div>
+					<div class="time-main w3l-agile">
+							<div class="col-md-6 year-info">
+							   <ul class="year">
+								   <li class="wow fadeInLeft">DICIEMBRE 2019 – PRESENTE</li>
+								   <li class="wow fadeInLeft" data-wow-delay="0.1s">ABRIL 2019 – OCTUBRE 2019</li>
+								   
+								   <li class="wow fadeInLeft" data-wow-delay="0.2s">MARZO 2018 – SEPTIEMBRE 2018</li>
+								   <li class="wow fadeInLeft" data-wow-delay="0.3s">ABRIL 2017 – SEPTIEMBRE 2017</li>
+								   <li class="wow fadeInLeft" data-wow-delay="0.4s">JUNIO 2016 – DICIEMBRE 2016</li>
+								   <div class="clearfix"></div>
+								</ul>
+							</div> 
+					                        <ul class="col-md-6 timeline">
+
+																
+																<li class="box wow fadeInRight" >
+																		<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  		<div class="timeline-panel">
+																		<div class="timeline-heading">
+																			<img class="img-circle" src="images/zenta-logo.png">
+																			<h4 class="timeline-title">BACKEND-EXPERTO – ZENTA GROUP</h4>
+																		</div>
+																		<div class="timeline-body">
+																		<p>Trainning Node avanzado (Microservicios, Testing), Angular avanzado (Integracion Api, JWT, Servicios, Comunicacion entre componentes), 
+																			Fixing, Testing e integraciones</p>
+																		</div>
+																	</div>
+																</li>
+															
+																
+																<li class="box wow fadeInRight" data-wow-delay="0.1s">
+																  <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																		<img class="img-circle" src="images/apiux-logo.png">
+																	  <h4 class="timeline-title">DESARROLLADOR JAVA – APIUX</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Cliente: CMF (Comisión para el Mercado Financiero)<br>
+																		Desarrollo sistema documental área administrativa.
+																		Analizar, diseñar y/o construir nuevas funcionalidades en base a
+																		nuevos requerimientos.<br><br>
+																		Tecnologías: Java7, Spring MVC, Hibernate, Jquery, XSLT, Oracle
+																		</p>
+																		<br>
+																		<p>
+																			Cliente: Mineduc<br>
+																			Desarrollo de FrontOffice portal de distribución textos escolares, factorizando e
+																			implementando nuevas funcionalidades de módulos para uso año 2020.<br><br>
+																			Tecnologías: Java8, Spring 4, Spring Boot , MyBatis, Jquery, Freemaker,
+																			Swagger
+																		</p>
+																	</div>
+																  </div>
+																</li>
+																
+																
+																
+																<li class="box wow fadeInRight" data-wow-delay="0.2s">
+																  <div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																		<img class="img-circle" src="images/huertasdeo-logo.jpg">
+																	  <h4 class="timeline-title">DESARROLLADOR FULL-STACK – HUERTAS A DEO</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Desarrollo de sistema para el uso de gestión de insumos
+																		de agricultura, hortalizas y productos orgánicos como
+																		envasados varios, ayudando a las preferencias de los
+																		clientes y distribución de cajas, gestionando todo lo
+																		referente con datos de recolección y envió de estos,
+																		gestionando datos desde Api Shopify.<br><br>
+																		Tecnologías: Laravel , Vue JS , MySQL .</p>
+																	</div>
+																  </div>
+																</li>
+																
+																<li class="box wow fadeInRight" data-wow-delay="0.3s">
+																  <div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																		<img class="img-circle" src="images/logo_sgd.png">
+																	  <h4 class="timeline-title"> Desarrollos web- Full Stack (freelancer) - SGD Media Group</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>
+																		Desarrollo de sistemas Web – Laravel Framework<br>
+																		Sistema de abogados, gestion incidencias y casos.<br>
+																		Sistema de hotel, Administracion Panel Usuario, Perfiles, Roles, Gestion de paquetes y servivios asociados, Excursiones, Desayunos.
+																		Diseño y gestión de base de datos relacionales (MySQL)
+																		Consumo de Apis Externas</p>
+																	</div>
+																  </div>
+																</li>
+																<li class="box wow fadeInRight" data-wow-delay="0.4s">
+																  <div class="timeline-badge pass"><i class="glyphicon glyphicon-briefcase"></i></div>
+																  <div class="timeline-panel">
+																	<div class="timeline-heading">
+																		<img class="img-circle" src="images/JirafaDigital_logo.png">
+																	  <h4 class="timeline-title">Desarrollo de sistemas web - Jirafa Digital SpA</h4>
+																	</div>
+																	<div class="timeline-body">
+																	  <p>Desarrollo de sistemas Web – Laravel Framework<br>
+																		Diseño y gestión de base de datos relacionales (MySQL)<br>
+																		Diseño y plantillas , prototipos para diferentes sitios web usando HTML5, CSS3 y JavaScript.<br>
+																		Desarrollo de temas personalizados para Wordpress CMS. (CSS, PHP, HTML)<br>
+																		Diseño y mantenimiento de diferentes sitios.<br>
+																		Desarrollo de plantillas en HTML para correos masivos.
+																	  </p>
+																	</div>
+																  </div>
+																</li>
+															</ul>
+								<div class="clearfix"></div>
+								</div>
+						</div>
+				</div>
+	<!--//work-experience-->
+
+	<!-- portfolio -->
+	<div  id="port">
+		<div class="service-head text-center">
+				<h4>Mis Trabajos</h4>
+				<h3>Mi <span>PORTAFOLIO</span></h3>
+				<span class="border"></span>
+		</div>
+
+		<section class="portfolio-section">
+			<div class="container">
+	  <!--         <h2 class="title">Portfolio</h2> -->
+			  <span class="hr-role"></span>
+			  <div class="portfolio-tab">
+				<ul id="filters" class="clearfix">
+					<li class="filter active" data-filter=".snippet, .design, .game">All</li>
+					<li class="filter" data-filter=".snippet">Backend</li>
+					<li class="filter" data-filter=".design">Frontend</li>
+					<li class="filter" data-filter=".game">Game Programming</li>
+				</ul>
+			  </div>
+			  <div class="portfolio-grid">
+				<div class="portfolio snippet" data-cat="snippet">
+				  <div class="portfolio-wrapper first">
+				   
+					<div class="portfolio-bg" style="background-image: url('https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?cs=srgb&dl=accounts-applications-apps-267350.jpg&fm=jpg');"></div>
+					<div class="label">
+					  <div class="label-text">
+						<h4>Project Name</h4>
+						<span class="text-category">Snippet</span>
+						<a href="#" class="template-btn" >Ver</a>
+					  </div>
+					  <div class="label-bg"> </div>
+					</div>
+				  </div>
+				</div>
+				<div class="portfolio design" data-cat="design">
+				  <div class="portfolio-wrapper second">
+					<div class="portfolio-bg" style="background-image: url('https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?cs=srgb&dl=accounts-applications-apps-267350.jpg&fm=jpg');"></div>
+					<div class="label">
+					  <div class="label-text">
+						<h4>Project Name</h4>
+						<span class="text-category">Design</span>
+						<a href="#" class="template-btn" >Ver</a>
+					  </div>
+					  <div class="label-bg"> </div>
+					</div>
+				  </div>
+				</div>
+				<div class="portfolio full-project" data-cat="design">
+				  <div class="portfolio-wrapper third">
+					<div class="portfolio-bg" style="background-image: url('https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?cs=srgb&dl=accounts-applications-apps-267350.jpg&fm=jpg');"></div>
+					<div class="label">
+					  <div class="label-text">
+						<h4>Project Name</h4>
+						<span class="text-category">Full Project</span>
+						<a href="#" class="template-btn" >Ver</a>
+					  </div>
+					  <div class="label-bg"> </div>
+					</div>
+				  </div>
+				</div>
+				<div class="portfolio design" data-cat="full-project">
+				  <div class="portfolio-wrapper second">
+					<div class="portfolio-bg" style="background-image: url('https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?cs=srgb&dl=art-art-materials-artwork-1053687.jpg&fm=jpg');"></div>
+					<div class="label">
+					  <div class="label-text">
+						<h4>Project Name</h4>
+						<span class="text-category">Design</span>
+						<a href="#" class="template-btn" >Ver</a>
+					  </div>
+					  <div class="label-bg"> </div>
+					</div>
+				  </div>
+				</div>
+				<div class="portfolio game" data-cat="game">
+				  <div class="portfolio-wrapper third">
+					<div class="portfolio-bg" style="background-image: url('images/soul-game.jpg');"></div>
+					<div class="label">
+					  <div class="label-text">
+						<h4>Soul Avenger</h4>
+						<span class="text-category">Videojuego Mobile</span>
+						<a href="#" class="template-btn" >Ver</a>
+					  </div>
+					  <div class="label-bg"> </div>
+					</div>
+				  </div>
+				</div>
+				<div class="portfolio game" data-cat="game">
+				  <div class="portfolio-wrapper third">
+					<div class="portfolio-bg" style="background-image: url('images/nano-game.jpg');"></div>
+					<div class="label">
+					  <div class="label-text">
+						<h4>Nano Kingdoms 2</h4>
+						<span class="text-category">Videojuego Web</span>
+						<a href="#" class="template-btn" >Ver</a>
+					  </div>
+					  <div class="label-bg"> </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</section>
+
+	</div>
+	<!-- //portfolio -->
+	
+    <!-- top-grids -->
+				<div class="blog" id="blogs">
+					<div class="container">
+						<div class="service-head text-center">
+						<h4>BLOGS</h4>
+						<h3>Mi <span>BLOGS</span></h3>
+						<span class="border one"></span>
+					</div>
+					   <div class="news-grid w3l-agile">
+					    <div class="col-md-6 news-img">
+						  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/react-vs-angular.png" alt=" " class="img-responsive"></a>
+						 
+						</div>
+					    <div class="col-md-6 news-text">
+						   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">React vs. Angular: The Complete Comparison</a></h3>
+							<ul class="news">
+								<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comentarios</a></li>
+								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+							</ul>
+							<p>
+								Do you want to learn about and discover the differences between React vs. Angular? Then keep on reading! I am going to explain to you the similarities, differences, pros, and cons of both React and Angular in this article. 
+								You don’t need to be an expert programmer to understand this post but it is encouraged that you are familiar with JavaScript.
+								*Disclaimer: I have worked extensively with both React and Angular. 
+								I used Angular at my job at IBM and React & React Native at my current job. I personally prefer React but will do my best not to taint the article with bias.
+							</p>
+							<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Leer mas</a>
+					
+						</div>
+		
+						<div class="clearfix"></div>
+					 </div>
+					  <div class="news-grid">
+
+					    <div class="col-md-6 news-text two">
+						   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">Soy programador y tengo 50 años</a></h3>
+							<ul class="news">
+								<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comentarios</a></li>
+								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+							</ul>
+							<p>
+								Parece complicado, en este caso, mantenerse como programador durante varias décadas sin ascender a analista o jefe de proyecto. Pero esa opción por supuesto existe. Y puede ser tan estupenda como cualquier otra.
+								La pregunta que nos atañe es la siguiente: ¿Se puede seguir siendo programador cumplidos / pasados los 50 años? Esto lo tenemos claro, la respuesta es “sí”. Y otra más: ¿Se es mejor programador conforme se cumplen años o es una de esas profesiones en las que la “sangre joven” viene con más fuerza?</p>
+							<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Leer mas</a>
+					
+						</div>
+						<div class="col-md-6 news-img two">
+						   <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/up-movie.jpeg" alt=" " class="img-responsive"></a>
+						 
+						</div>
+						<div class="clearfix"></div>
+					 </div>
+					  <div class="news-grid">
+					    <div class="col-md-6 news-img">
+						  <a href="#" data-toggle="modal" data-target="#myModal1"> <img src="images/desarrollador-frontend.png" alt=" " class="img-responsive"></a>
+						 
+						</div>
+					    <div class="col-md-6 news-text">
+						   <h3> <a href="#" data-toggle="modal" data-target="#myModal1">El dilema de ser frontend</a></h3>
+							<ul class="news">
+								<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
+								<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comentarios</a></li>
+								<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
+								<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
+							</ul>
+							<p>Aunque trabaje por mucho tiempo como full-stack mi verdadera pasión es el frontend. 
+								Este cambio me hizo feliz pero no todo es color de rosa, 
+								aunque no lo crean lo más difícil es explicarle a la gente que es lo que hago. 
+								Yo puedo diseñar pero también puedo darle vida a ese diseño con código, 
+								así que para que la gente me entienda no sé si decir que soy diseñadora y que me pidan que les ayude 
+								con el logo de su nueva empresa pero luego tendre que explicarles que no soy diseñadora gráfica o tengo la opción de decirles que soy programadora para que entonces me pidan un sistema para llevar la contabilidad de su negocio.</p>
+							<a href="#" data-toggle="modal" data-target="#myModal1" class="read hvr-shutter-in-horizontal">Leer mas</a>
+					
+						</div>
+		
+						<div class="clearfix"></div>
+					 </div>
+					</div>
+				</div>
+				<!-- top-grids -->
+	<!-- /blog-pop-->
+			<div class="modal ab fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog about" role="document">
+					<div class="modal-content about">
+						<div class="modal-header">
+							<button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						</div>
+						<div class="modal-body about">
+								<div class="about">
+									
+									  <div class="about-inner">
+									   
+									      <img src="images/b3.jpg" alt="about"/>
+										     <h4 class="tittle">A Fews words about us</h4>
+										   <p>Lorem ipsum dolor sit amet Integer gravida,Lorem ipsum dolor sit amet Integer gravida velit,Ming sits in the corner the whole day. She's into crochet. quis dolor tristiqumsan.Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. velit quis dolor tristiqumsan.</p>
+										    <p>Lorem ipsum dolor sit amet. Integer gravida velit quis dolor tristiqumsan.anteposuerit litterarum formas humanitatis per seacula amet Integer gravida velit. </p>
+									  </div>
+												
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //blog-pop-->
+
+			<!-- /header -->
+<div class="footer" id="contact">
+	<div class="container">
+	<div class="service-head one text-center">
+						<h4>Contáctame</h4>
+						<h3>OBTEN <span> CONTACTO CONMIGO</span></h3>
+						<span class="border two"></span>
+					</div>
+		<div class="mail_us">
+			<div class="col-md-6 mail_left">
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<h4>Email</h4>
+						<ul>
+							<li>Mail: <a href="mailto:jonathan.monroy@live.com">jonathan.monroy@live.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+						<h4>Movil</h4>
+						<ul>
+							<li>Celular: +56 936377109</li>
+						</ul>
+					</div>
+				</div>
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="fa fa-linkedin" aria-hidden="true"></span>
+						<ul>
+							<li>Mi Linkedin: <a href="https://www.linkedin.com/in/jonathanmonroy/">https://www.linkedin.com/in/jonathanmonroy/</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="contact-grid1-left">
+					<div class="contact-grid1-left1">
+						<span class="fa fa-github" aria-hidden="true"></span>
+						<ul>
+							<li>Mi Github: <a href="https://github.com/jonasoft86">https://github.com/jonasoft86</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-6 mail_right">
+				<form action="#" method="post">
+					<input type="text" name="Name" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}" required="">
+					<input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Mensaje...</textarea>
+					<input type="submit" value="Enviar">
+					
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="copy_right text-center">
+			<p>&copy; 2020 Portafolio . | Jonathan Monroy</p>
+		</div>
+	</div>
+</div>
+			<!-- //footer -->
+		<!-- /container -->
+		<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic9.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+						<h3>Image-Title</h3>
+                        <img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl"></div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <div class="modal-body">
+                        <img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+<!-- //for bootstrap working -->
+	<!--Menu-->
+
+	<script src="js/bootstrap.js"></script>
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+	<script>
+	
+		$(document).ready ( function(){
+			var filterList = {
+				init: function () {
+					// MixItUp plugin
+					// http://mixitup.io
+					$('.portfolio-grid').mixItUp({
+						selectors: {
+					  target: '.portfolio',
+					  filter: '.filter'	
+				  },
+				  load: {
+					  filter: 'all' // show app tab on first load
+					}     
+					});								
+				}
+			};
+			// Run the show!
+			filterList.init();
+		});	
+	</script>
+
+
+
+	</body>
+</html>
+
