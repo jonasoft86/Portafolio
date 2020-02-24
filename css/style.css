@@ -1706,7 +1706,7 @@ ol {
 @media only screen and (max-width: 601px) {
 	
 	#home {
-		width: 600px;
+		width: 601px;
 		height: 750px;
 	}
 
@@ -1732,6 +1732,14 @@ ol {
 
 	.window-main ol li:before {
 		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	
+	#home {
+		width: 350px;
+		height: 750px;
 	}
 }
 
