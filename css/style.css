@@ -1715,9 +1715,7 @@ ol {
 	}
 	
 	.buttonBox{
-
-		margin:84.5vw 0 0 45.5vw;
-		width:20%;
+		display: none;
 	}
 
 	.window {
