@@ -1577,9 +1577,9 @@ button{
   color:white;
   font-weight:700;
   letter-spacing:1px;
-  border:none;
   font-size:15px;
   outline:none;
+  border: 2px solid #00a78e; 
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
@@ -1708,6 +1708,10 @@ ol {
 	#home {
 		width: 600px;
 		height: 750px;
+	}
+
+	.typewriter h1 {
+		display: none;
 	}
 	
 	.buttonBox{
