@@ -1563,7 +1563,7 @@ span.border.two:after {
 .buttonBox{
   position:relative;
   float:left;
-  margin:4.5vw 0 0 18.5vw;
+  margin:4.5vw 0 0 23.5vw;
   width:25%;
 }
 
@@ -1616,6 +1616,123 @@ button{
 }
 
 
+/* Code Editor*/
+
+ul,
+ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.window {
+	width: 650px;
+	height: 500px;
+	margin: auto;
+	background-color: #00a78e;
+	box-shadow: 0 0 25px -7px #00a78e;
+}
+
+.window-top {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	background-color: #202020;
+}
+
+.window__controls {
+	display: inline-flex;
+}
+
+.window__controls span {
+	width: 15px;
+	height: 15px;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+
+.window__controls span:nth-child(1) {
+	background-color: #b22222;
+}
+.window__controls span:nth-child(2) {
+	background-color: #d6bf3e;
+}
+.window__controls span:nth-child(3) {
+	background-color: #4db434;
+}
+
+.window__title {
+	flex: 1;
+	text-align: center;
+	color: #b1b1b3;
+}
+
+.window-main {
+	padding: 0.5em;
+	color: #4e4e4e;
+}
+
+.window-main ol {
+	counter-reset: item;
+	font-family: "Source Code Pro", monospace;
+}
+
+.window-main ol li {
+	margin-bottom: 3px;
+}
+
+.window-main ol li:before {
+	content: counter(item) "  ";
+	counter-increment: item;
+	padding: 0 10px;
+}
+
+.tag {
+	color: #FFDD00;
+}
+.attr {
+	color: #8dc6e3;
+}
+.val {
+	color: #c58b74;
+}
+.text {
+	color: #d4d4d4;
+}
+.comment {
+	color: #FBB034;
+}
+
+@media only screen and (max-width: 601px) {
+	
+	#home {
+		width: 600px;
+		height: 750px;
+	}
+	
+	.buttonBox{
+
+		margin:84.5vw 0 0 45.5vw;
+		width:20%;
+	}
+
+	.window {
+		width: 350px;
+		height: 450px;
+		font-size: 0.65em;
+	}
+
+	.window__controls span {
+		width: 10px;
+		height: 10px;
+		margin-left: 5px;
+	}
+
+	.window-main ol li:before {
+		padding: 0;
+	}
+}
+
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
@@ -1625,9 +1742,9 @@ button{
 	border-right: .15em solid orange; /* The typwriter cursor */
 	white-space: nowrap; /* Keeps the content on a single line */
 	margin-top: 250px;
-	margin-left: 100px;
+	margin-left: 200px;
 	letter-spacing: .15em; /* Adjust as needed */
-	font-size: 2em;
+	font-size: 1.5em;
 	animation: 
 	  typing 3.5s steps(30, end),
 	  blink-caret .5s step-end infinite;
