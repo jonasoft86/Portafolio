@@ -150,9 +150,21 @@ a {
   margin: auto;
 }
 
+.img {
+  height: 10px !important;
+}
+
 @media screen and (max-width: 768px) {
+
+  img{
+    vertical-align: middle;
+    max-width: 10% !important;
+    display: none;
+  }
   .menu {
     height: auto;
+    background: #d6bf3e;
+    
   }
 
   .menu-inner {
@@ -160,11 +172,17 @@ a {
   }
 
   .menu-link {
-    padding: 10px 0;
+    padding: 7px 0;
     font-size: 1.2em;
   }
 
   .menu.active {
     width: calc(100% - 0.5rem);
+    
+  }
+
+  .menu-opener:hover, .menu-opener.active {
+    background: #d6bf3e;
+    
   }
 }
