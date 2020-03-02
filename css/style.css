@@ -654,7 +654,7 @@ span.border.one:after {
 }
 .timeline {
   list-style: none;
-      padding: 10px 0 10px;
+  padding: 10px 0 10px;
   position: relative;
 }
 .timeline:before {
@@ -799,16 +799,16 @@ ul.year li {
     display: block;
 }
 ul.year li:nth-child(2){
-	    margin-top: 250px;
+	    margin-top: 130px;
 }
 ul.year li:nth-child(3){
-	    margin-top: 550px;
+	    margin-top: 420px;
 }
 ul.year li:nth-child(4){
-	    margin-top: 380px;
+	    margin-top: 250px;
 }
 ul.year li:nth-child(5){
-	    margin-top: 260px;
+	    margin-top: 220px;
 }
 .timeline-badge.success i {
     font-size: 0.9em;
@@ -837,7 +837,7 @@ ul.year li:nth-child(5){
 	margin:1em auto 0 auto;
 }
 .portfolio-grid{
-	margin-bottom:1.8em;
+	margin-bottom:1.2em;
 }
 .portfolio-grid-pic{
 	position:relative;
@@ -893,7 +893,7 @@ ul.year li:nth-child(5){
 	margin-top:3em;
 }
 .portfolio{
-	padding:3.5em 0;
+	padding:3.5em 1em;
 }
 /*-- feedback --*/
 .feedback{
@@ -2562,7 +2562,7 @@ ol {
 
 
 header.masthead {
-	margin-bottom: 50px;
+
 	background: no-repeat center center;
 	background-color: #868e96;
 	background-attachment: scroll;
