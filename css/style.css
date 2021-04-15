@@ -799,22 +799,25 @@ ul.year li {
     display: block;
 }
 ul.year li:nth-child(2){
-	    margin-top: 130px;
+	    margin-top: 180px;
 }
 ul.year li:nth-child(3){
-	    margin-top: 420px;
+	    margin-top: 120px;
 }
 ul.year li:nth-child(4){
-	    margin-top: 250px;
+	    margin-top: 450px;
 }
 ul.year li:nth-child(5){
 	    margin-top: 220px;
+}
+ul.year li:nth-child(6){
+	margin-top: 220px;
 }
 .timeline-badge.success i {
     font-size: 0.9em;
 }
 .time-main {
-    margin-top: 3em;
+    margin-top: 5em;
 }
 /*--//work--*/
 /*-- portfolio --*/
